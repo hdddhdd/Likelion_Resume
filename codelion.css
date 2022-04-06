@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn2:wght@500&display=swap');
+
+
+/*
+* {
+    font-family: 'Montserrat';
+}
+*/
+body,
+h1,
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    min-width: fit-content;
+    background-image: url('https://news.chungbuk.go.kr/news/photo/202008/15147_11147_4351.jpg');
+    background-size: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Vollkorn', serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+h2 {
+    font-family: Vollkorn;
+    font-size: 20px;    color: #282828;
+    font-weight: lighter;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 5px;
+}
+
+
+.name-text {
+    font-size: 16px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+.about-me-text {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 10px 0 rgb(40, 0, 184);
+    background-color: white;
+}
+
+.title-box {
+    text-align: right;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+.float-wrap {
+    overflow: hidden;
+}
+
+.title-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: left;
+}
+
+.year-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.desc-text {
+    font-size: 10px;
+}
+
+.desc-subtext {
+    font-size: 10px;
+    color: #282828;
+    padding-left: 16px;
+}
+
+.sns-img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.sns-wrap {
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px;
+    font-size: 12px;
+    color: #919191;
+}
+
+img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
