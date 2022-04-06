@@ -8,6 +8,10 @@
     font-family: 'Montserrat';
 }
 */
+
+
+
+
 body,
 h1,
 h2 {
@@ -22,6 +26,8 @@ body {
     background-size: no-repeat;
     background-size: cover;
 }
+
+
 
 h1 {
     font-family: 'Vollkorn', serif;
@@ -58,8 +64,13 @@ h2 {
     margin-right: auto;
     margin-left: auto;
     border: 1px solid #ebebeb;
-    box-shadow: 0 1px 10px 0 rgb(40, 0, 184);
+    box-shadow: 0 1px 10px 0 rgb(255, 255, 255);
     background-color: white;
+}
+
+.banner {
+    background-color: skyblue;
+    float: left;
 }
 
 .title-box {
@@ -114,10 +125,24 @@ footer {
     padding: 20px;
     font-size: 12px;
     color: #919191;
+
 }
 
 img {
     float: left;
     width: 100px;
     height: 100px;
+}
+
+.left {
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    background-color: skyblue;
+}
+
+.right {
+    width: 70%;
+    float: right;
+    box-sizing: border-box;
 }
